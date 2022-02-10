@@ -11,6 +11,7 @@ const FormInput = ({ name, label, required }) => {
     return (
       <Grid item xs={12} sm={6}>
         <Controller
+            defaultValue=""
             control={control}
             fullWidth
             name = { name }
